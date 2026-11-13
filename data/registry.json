@@ -1,0 +1,870 @@
+{
+ "GB:14820931": {
+  "country": "GB",
+  "company_number": "14820931",
+  "company_name": "LEDGERLINE SOFTWARE LTD",
+  "status": "active",
+  "incorporated_on": "2021-04-12",
+  "registered_office_address": "7 Bell Yard, London WC2A 2JR",
+  "officers": [
+   {
+    "name": "Priya Raman",
+    "role": "director",
+    "date_of_birth": "1988-02",
+    "nationality": "GB"
+   },
+   {
+    "name": "Tom Whitaker",
+    "role": "director",
+    "date_of_birth": "1985-07",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Priya Raman",
+    "kind": "individual",
+    "ownership": "50-75%"
+   },
+   {
+    "name": "Tom Whitaker",
+    "kind": "individual",
+    "ownership": "25-50%"
+   }
+  ],
+  "sic_codes": [
+   "62012"
+  ]
+ },
+ "NL:84213377": {
+  "country": "NL",
+  "company_number": "84213377",
+  "company_name": "Groene Kist B.V.",
+  "status": "active",
+  "incorporated_on": "2019-09-02",
+  "registered_office_address": "Keizersgracht 221, 1016 DV Amsterdam",
+  "officers": [
+   {
+    "name": "Sanne de Vries",
+    "role": "director",
+    "date_of_birth": "1990-05",
+    "nationality": "NL"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Sanne de Vries",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "47910"
+  ]
+ },
+ "EE:16554120": {
+  "country": "EE",
+  "company_number": "16554120",
+  "company_name": "Northcode OÜ",
+  "status": "active",
+  "incorporated_on": "2022-06-20",
+  "registered_office_address": "Telliskivi 60a, 10412 Tallinn",
+  "officers": [
+   {
+    "name": "Martin Tamm",
+    "role": "management board member",
+    "date_of_birth": "1992-12",
+    "nationality": "EE"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Martin Tamm",
+    "kind": "individual",
+    "ownership": "50-75%"
+   },
+   {
+    "name": "Laura Kask",
+    "kind": "individual",
+    "ownership": "25-50%"
+   }
+  ],
+  "sic_codes": [
+   "62011"
+  ]
+ },
+ "GB:12007745": {
+  "country": "GB",
+  "company_number": "12007745",
+  "company_name": "PAYBRIDGE MERCHANT SERVICES LIMITED",
+  "status": "active",
+  "incorporated_on": "2019-01-15",
+  "registered_office_address": "Suite 4, 21 Spring Gardens, Manchester M2 1FB",
+  "officers": [
+   {
+    "name": "Owen Clarke",
+    "role": "director",
+    "date_of_birth": "1979-08",
+    "nationality": "GB"
+   },
+   {
+    "name": "Aisha Bello",
+    "role": "director",
+    "date_of_birth": "1986-04",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Owen Clarke",
+    "kind": "individual",
+    "ownership": "50-75%"
+   },
+   {
+    "name": "Aisha Bello",
+    "kind": "individual",
+    "ownership": "25-50%"
+   }
+  ],
+  "sic_codes": [
+   "66190"
+  ]
+ },
+ "GB:13390218": {
+  "country": "GB",
+  "company_number": "13390218",
+  "company_name": "HARBOUR & FIELD LIMITED",
+  "status": "active",
+  "incorporated_on": "2020-11-30",
+  "registered_office_address": "12 Quay Street, Bristol BS1 4DB",
+  "officers": [
+   {
+    "name": "Grace Holloway",
+    "role": "director",
+    "date_of_birth": "1983-01",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Grace Holloway",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "56101"
+  ]
+ },
+ "GB:16701533": {
+  "country": "GB",
+  "company_number": "16701533",
+  "company_name": "TIDEMARK STUDIO LTD",
+  "status": "active",
+  "incorporated_on": "2026-09-08",
+  "registered_office_address": "3 Oxford Road, Reading RG1 7LS",
+  "officers": [
+   {
+    "name": "Jamie Osei",
+    "role": "director",
+    "date_of_birth": "1995-10",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Jamie Osei",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "74100"
+  ]
+ },
+ "DE:HRB 248811": {
+  "country": "DE",
+  "company_number": "HRB 248811",
+  "company_name": "Kovacs Logistik GmbH",
+  "status": "active",
+  "incorporated_on": "2017-03-14",
+  "registered_office_address": "Hafenstraße 9, 20457 Hamburg",
+  "officers": [
+   {
+    "name": "Daniel Kovacs",
+    "role": "Geschäftsführer",
+    "date_of_birth": "1991-07",
+    "nationality": "DE"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Daniel Kovacs",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "52290"
+  ]
+ },
+ "LT:306118420": {
+  "country": "LT",
+  "company_number": "306118420",
+  "company_name": "Blokas Exchange UAB",
+  "status": "active",
+  "incorporated_on": "2021-02-01",
+  "registered_office_address": "Gedimino pr. 20, 01103 Vilnius",
+  "officers": [
+   {
+    "name": "Rūta Jonaitė",
+    "role": "director",
+    "date_of_birth": "1987-09",
+    "nationality": "LT"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Rūta Jonaitė",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "66120"
+  ]
+ },
+ "GB:11873640": {
+  "country": "GB",
+  "company_number": "11873640",
+  "company_name": "OAK & ASH JOINERY LTD",
+  "status": "active",
+  "incorporated_on": "2019-03-11",
+  "registered_office_address": "Unit 2, Mill Lane, Leeds LS11 5EA",
+  "officers": [
+   {
+    "name": "Ben Murray",
+    "role": "director",
+    "date_of_birth": "1981-05",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Ben Murray",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "16230"
+  ]
+ },
+ "GB:15002387": {
+  "country": "GB",
+  "company_number": "15002387",
+  "company_name": "BRIGHTWAVE HOLDINGS LTD",
+  "status": "active",
+  "incorporated_on": "2023-07-19",
+  "registered_office_address": "40 Gracechurch Street, London EC3V 0BT",
+  "officers": [
+   {
+    "name": "Chloe Martin",
+    "role": "director",
+    "date_of_birth": "1990-08",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Chloe Martin",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "64209"
+  ]
+ },
+ "GB:16098912": {
+  "country": "GB",
+  "company_number": "16098912",
+  "company_name": "MERIDIAN CRAFT COFFEE LTD",
+  "status": "active",
+  "incorporated_on": "2025-05-02",
+  "registered_office_address": "8 Park Row, Nottingham NG1 6GR",
+  "officers": [
+   {
+    "name": "Lucy Fenwick",
+    "role": "director",
+    "date_of_birth": "1989-11",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Lucy Fenwick",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "10830"
+  ]
+ },
+ "GB:13844102": {
+  "country": "GB",
+  "company_number": "13844102",
+  "company_name": "VECTRA ANALYTICS LTD",
+  "status": "active",
+  "incorporated_on": "2021-10-04",
+  "registered_office_address": "1 Brindley Place, Birmingham B1 2JB",
+  "officers": [
+   {
+    "name": "Samuel Ortiz",
+    "role": "director",
+    "date_of_birth": "1984-06",
+    "nationality": "ES"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Samuel Ortiz",
+    "kind": "individual",
+    "ownership": "50-75%"
+   },
+   {
+    "name": "Nadia Haddad",
+    "kind": "individual",
+    "ownership": "25-50%"
+   }
+  ],
+  "sic_codes": [
+   "62020"
+  ]
+ },
+ "MT:C 99812": {
+  "country": "MT",
+  "company_number": "C 99812",
+  "company_name": "Nova Ledger Ltd",
+  "status": "active",
+  "incorporated_on": "2024-01-22",
+  "registered_office_address": "Triq il-Kbira, Sliema SLM 1549",
+  "officers": [
+   {
+    "name": "Marco Vella",
+    "role": "director",
+    "date_of_birth": "1986-03",
+    "nationality": "MT"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Marco Vella",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "66190"
+  ]
+ },
+ "IE:712204": {
+  "country": "IE",
+  "company_number": "712204",
+  "company_name": "Cairn Health Software Limited",
+  "status": "active",
+  "incorporated_on": "2022-03-08",
+  "registered_office_address": "Grand Canal Dock, Dublin 2, D02 X576",
+  "officers": [
+   {
+    "name": "Aoife Byrne",
+    "role": "director",
+    "date_of_birth": "1989-02",
+    "nationality": "IE"
+   },
+   {
+    "name": "Ciaran Doyle",
+    "role": "director",
+    "date_of_birth": "1976-12",
+    "nationality": "IE"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Aoife Byrne",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "62012"
+  ]
+ },
+ "NL:90011234": {
+  "country": "NL",
+  "company_number": "90011234",
+  "company_name": "Fietsfabriek Utrecht B.V.",
+  "status": "active",
+  "incorporated_on": "2020-05-18",
+  "registered_office_address": "Vredenburg 40, 3511 BD Utrecht",
+  "officers": [
+   {
+    "name": "Joris Bakker",
+    "role": "director",
+    "date_of_birth": "1982-09",
+    "nationality": "NL"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Joris Bakker",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "30920"
+  ]
+ },
+ "GB:14455019": {
+  "country": "GB",
+  "company_number": "14455019",
+  "company_name": "SUNRISE TRADING (UK) LTD",
+  "status": "active",
+  "incorporated_on": "2022-08-25",
+  "registered_office_address": "Office 12, 88 Wood Street, London EC2V 7RS",
+  "officers": [
+   {
+    "name": "Ian Fletcher",
+    "role": "director",
+    "date_of_birth": "1970-04",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Sunrise Holdings Ltd",
+    "kind": "corporate",
+    "ownership": "75-100%",
+    "country_of_residence": "VG"
+   }
+  ],
+  "sic_codes": [
+   "46900"
+  ]
+ },
+ "GB:10288761": {
+  "country": "GB",
+  "company_number": "10288761",
+  "company_name": "QUANTA PRINT LTD",
+  "status": "dissolved",
+  "incorporated_on": "2016-07-01",
+  "registered_office_address": "5 Market Place, Derby DE1 3QE",
+  "officers": [
+   {
+    "name": "Rob Hughes",
+    "role": "director",
+    "date_of_birth": "1975-02",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Rob Hughes",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "18129"
+  ]
+ },
+ "GB:16822107": {
+  "country": "GB",
+  "company_number": "16822107",
+  "company_name": "APEXFLOW GLOBAL LTD",
+  "status": "active",
+  "incorporated_on": "2026-10-22",
+  "registered_office_address": "71-75 Shelton Street, London WC2H 9JQ",
+  "officers": [
+   {
+    "name": "Mark Ellison",
+    "role": "director",
+    "date_of_birth": "1990-01",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Mark Ellison",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "70229"
+  ]
+ },
+ "CY:HE 401553": {
+  "country": "CY",
+  "company_number": "HE 401553",
+  "company_name": "Morozov Shipping Services Ltd",
+  "status": "active",
+  "incorporated_on": "2018-05-09",
+  "registered_office_address": "Arch. Makariou III 155, Limassol 3026",
+  "officers": [
+   {
+    "name": "Andreas Georgiou",
+    "role": "director",
+    "date_of_birth": "1980-10",
+    "nationality": "CY"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Viktor Morozov",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "52290"
+  ]
+ },
+ "LV:40203311982": {
+  "country": "LV",
+  "company_number": "40203311982",
+  "company_name": "Baltic Timber Partners SIA",
+  "status": "active",
+  "incorporated_on": "2020-02-11",
+  "registered_office_address": "Brīvības iela 99, Rīga LV-1001",
+  "officers": [
+   {
+    "name": "Alexander Petrov",
+    "role": "board member",
+    "date_of_birth": "1983-09",
+    "nationality": "BY"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Alexander Petrov",
+    "kind": "individual",
+    "ownership": "50-75%"
+   },
+   {
+    "name": "Inese Ozola",
+    "kind": "individual",
+    "ownership": "25-50%"
+   }
+  ],
+  "sic_codes": [
+   "16100"
+  ]
+ },
+ "GB:13021194": {
+  "country": "GB",
+  "company_number": "13021194",
+  "company_name": "SAFFRON ROUTE IMPORTS LTD",
+  "status": "active",
+  "incorporated_on": "2020-12-01",
+  "registered_office_address": "22 Belgrave Road, Leicester LE4 5AT",
+  "officers": [
+   {
+    "name": "Farid Ahmadi",
+    "role": "director",
+    "date_of_birth": "1978-03",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Kaveh Rostami",
+    "kind": "individual",
+    "ownership": "50-75%"
+   },
+   {
+    "name": "Farid Ahmadi",
+    "kind": "individual",
+    "ownership": "25-50%"
+   }
+  ],
+  "sic_codes": [
+   "46370"
+  ]
+ },
+ "CY:HE 433870": {
+  "country": "CY",
+  "company_number": "HE 433870",
+  "company_name": "LuckyStar Digital Ltd",
+  "status": "active",
+  "incorporated_on": "2023-04-03",
+  "registered_office_address": "Spyrou Kyprianou 50, Larnaca 6057",
+  "officers": [
+   {
+    "name": "Nikos Charalambous",
+    "role": "director",
+    "date_of_birth": "1985-06",
+    "nationality": "CY"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Nikos Charalambous",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "92000"
+  ]
+ },
+ "GB:15540098": {
+  "country": "GB",
+  "company_number": "15540098",
+  "company_name": "CORAL BAY VENTURES LTD",
+  "status": "active",
+  "incorporated_on": "2024-02-14",
+  "registered_office_address": "9 Harbour Exchange Square, London E14 9GE",
+  "officers": [
+   {
+    "name": "Lena Fischer",
+    "role": "director",
+    "date_of_birth": "1988-11",
+    "nationality": "DE"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Elena Sokolova",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "64999"
+  ]
+ },
+ "GB:14967231": {
+  "country": "GB",
+  "company_number": "14967231",
+  "company_name": "BRIGHT LANTERN MEDIA LTD",
+  "status": "active",
+  "incorporated_on": "2023-05-30",
+  "registered_office_address": "14 Castle Street, Edinburgh EH2 3AT",
+  "officers": [
+   {
+    "name": "Rory Campbell",
+    "role": "director",
+    "date_of_birth": "1991-04",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Rory Campbell",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "73110"
+  ]
+ },
+ "DE:HRB 731902": {
+  "country": "DE",
+  "company_number": "HRB 731902",
+  "company_name": "Rheinwerk Holding GmbH",
+  "status": "active",
+  "incorporated_on": "2015-06-01",
+  "registered_office_address": "Königsallee 60, 40212 Düsseldorf",
+  "officers": [
+   {
+    "name": "Stefan Braun",
+    "role": "Geschäftsführer",
+    "date_of_birth": "1972-04",
+    "nationality": "DE"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Hamid Karimi Holdings Ltd",
+    "kind": "corporate",
+    "ownership": "75-100%",
+    "country_of_residence": "AE"
+   }
+  ],
+  "sic_codes": [
+   "64200"
+  ]
+ },
+ "GB:12560433": {
+  "country": "GB",
+  "company_number": "12560433",
+  "company_name": "FLINT & STEEL ENGINEERING LTD",
+  "status": "active",
+  "incorporated_on": "2020-02-03",
+  "registered_office_address": "Unit 9, Riverside Park, Sheffield S9 1XH",
+  "officers": [
+   {
+    "name": "Paul Grady",
+    "role": "director",
+    "date_of_birth": "1968-09",
+    "nationality": "GB",
+    "resigned_on": "2026-06-30"
+   },
+   {
+    "name": "Kerry Shaw",
+    "role": "director",
+    "date_of_birth": "1980-02",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Paul Grady",
+    "kind": "individual",
+    "ownership": "50-75%"
+   },
+   {
+    "name": "Kerry Shaw",
+    "kind": "individual",
+    "ownership": "25-50%"
+   }
+  ],
+  "sic_codes": [
+   "25620"
+  ]
+ },
+ "ES:B87654321": {
+  "country": "ES",
+  "company_number": "B87654321",
+  "company_name": "Soluciones Atlas Digital S.L.",
+  "status": "active",
+  "incorporated_on": "2018-10-15",
+  "registered_office_address": "Calle de Alcalá 120, 28009 Madrid",
+  "officers": [
+   {
+    "name": "Lucía Moreno",
+    "role": "administradora única",
+    "date_of_birth": "1987-03",
+    "nationality": "ES"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Lucía Moreno",
+    "kind": "individual",
+    "ownership": "50-75%"
+   }
+  ],
+  "sic_codes": [
+   "62010"
+  ]
+ },
+ "PT:516432109": {
+  "country": "PT",
+  "company_number": "516432109",
+  "company_name": "Loyalty Loop Lda",
+  "status": "active",
+  "incorporated_on": "2023-03-27",
+  "registered_office_address": "Avenida da Liberdade 110, 1250-146 Lisboa",
+  "officers": [
+   {
+    "name": "Tiago Ferreira",
+    "role": "gerente",
+    "date_of_birth": "1993-08",
+    "nationality": "PT"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Tiago Ferreira",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "63110"
+  ]
+ },
+ "GB:13377802": {
+  "country": "GB",
+  "company_number": "13377802",
+  "company_name": "CRESTVIEW TRAVEL LTD",
+  "status": "active",
+  "incorporated_on": "2021-05-05",
+  "registered_office_address": "18 King Street, Manchester M2 6AY",
+  "officers": [
+   {
+    "name": "Hannah Price",
+    "role": "director",
+    "date_of_birth": "1984-12",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Hannah Price",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "79110"
+  ]
+ },
+ "GB:07421188": {
+  "country": "GB",
+  "company_number": "07421188",
+  "company_name": "THE CORNER CRUMB BAKERY LTD",
+  "status": "active",
+  "incorporated_on": "2014-09-01",
+  "registered_office_address": "41 High Street, Bath BA1 5AQ",
+  "officers": [
+   {
+    "name": "Ella Turner",
+    "role": "director",
+    "date_of_birth": "1976-07",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Ella Turner",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "10710"
+  ]
+ },
+ "FR:912345678": {
+  "country": "FR",
+  "company_number": "912345678",
+  "company_name": "Atelier Lumen SAS",
+  "status": "active",
+  "incorporated_on": "2022-01-10",
+  "registered_office_address": "15 rue de la Roquette, 75011 Paris",
+  "officers": [
+   {
+    "name": "Camille Laurent",
+    "role": "présidente",
+    "date_of_birth": "1991-04",
+    "nationality": "FR"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Camille Laurent",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "74100"
+  ]
+ }
+}

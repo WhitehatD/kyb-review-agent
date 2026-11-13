@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cache/
+.env
+results/dash.log
+results/run-*.log
+results/operator_decisions.json

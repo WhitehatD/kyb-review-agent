@@ -1,0 +1,14 @@
+name: test
+on: [push, pull_request]
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: fixtures are reproducible
+        run: python data/build_fixtures.py && git diff --exit-code data/
+      - run: python -m pytest -q

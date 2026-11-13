@@ -1,0 +1,56 @@
+[
+ {
+  "id": "SX-1042",
+  "name": "Viktor Aleksandrovich Morozov",
+  "aliases": [
+   "Victor Morozov"
+  ],
+  "date_of_birth": "1971-03",
+  "nationality": "RU",
+  "list": "EU consolidated (fictional fixture)",
+  "reason": "Asset freeze"
+ },
+ {
+  "id": "SX-2210",
+  "name": "Aleksandr Petrov",
+  "aliases": [
+   "Alexander Petrov",
+   "Oleksandr Petrov"
+  ],
+  "date_of_birth": "1983-09",
+  "nationality": "BY",
+  "list": "UK OFSI (fictional fixture)",
+  "reason": "Asset freeze"
+ },
+ {
+  "id": "SX-3307",
+  "name": "Hamid Reza Karimi",
+  "aliases": [
+   "H. R. Karimi"
+  ],
+  "date_of_birth": "1965-11",
+  "nationality": "IR",
+  "list": "OFAC SDN (fictional fixture)",
+  "reason": "Sanctions evasion"
+ },
+ {
+  "id": "SX-4418",
+  "name": "Daniel Kovacs",
+  "aliases": [],
+  "date_of_birth": "1958-02",
+  "nationality": "HU",
+  "list": "EU consolidated (fictional fixture)",
+  "reason": "Asset freeze"
+ },
+ {
+  "id": "SX-5521",
+  "name": "Elena Sokolova",
+  "aliases": [
+   "Yelena Sokolova"
+  ],
+  "date_of_birth": "1979-06",
+  "nationality": "RU",
+  "list": "UK OFSI (fictional fixture)",
+  "reason": "Asset freeze"
+ }
+]
