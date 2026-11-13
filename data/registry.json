@@ -866,5 +866,344 @@
   "sic_codes": [
    "74100"
   ]
+ },
+ "GB:14110237": {
+  "country": "GB",
+  "company_number": "14110237",
+  "company_name": "NIMBUS FIELD SERVICES LTD",
+  "status": "active",
+  "incorporated_on": "2022-02-14",
+  "registered_office_address": "4 Hope Street, Liverpool L1 9BH",
+  "officers": [
+   {
+    "name": "Kate Lowry",
+    "role": "director",
+    "date_of_birth": "1987-06",
+    "nationality": "GB"
+   },
+   {
+    "name": "Sam Okafor",
+    "role": "director",
+    "date_of_birth": "1984-01",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Kate Lowry",
+    "kind": "individual",
+    "ownership": "25-50%"
+   },
+   {
+    "name": "Sam Okafor",
+    "kind": "individual",
+    "ownership": "25-50%"
+   },
+   {
+    "name": "Rhys Evans",
+    "kind": "individual",
+    "ownership": "25-50%"
+   }
+  ],
+  "sic_codes": [
+   "43210"
+  ]
+ },
+ "DK:41998213": {
+  "country": "DK",
+  "company_number": "41998213",
+  "company_name": "Fjordlys ApS",
+  "status": "active",
+  "incorporated_on": "2020-08-19",
+  "registered_office_address": "Vesterbrogade 74, 1620 København V",
+  "officers": [
+   {
+    "name": "Mads Nielsen",
+    "role": "direktør",
+    "date_of_birth": "1986-12",
+    "nationality": "DK"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Mads Nielsen",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "32500"
+  ]
+ },
+ "GB:15887302": {
+  "country": "GB",
+  "company_number": "15887302",
+  "company_name": "ELENA SOKOLOVA DESIGN LTD",
+  "status": "active",
+  "incorporated_on": "2024-06-03",
+  "registered_office_address": "22 Grainger Street, Newcastle NE1 5JG",
+  "officers": [
+   {
+    "name": "Elena Sokolova",
+    "role": "director",
+    "date_of_birth": "1996-04",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Elena Sokolova",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "74100"
+  ]
+ },
+ "IE:698113": {
+  "country": "IE",
+  "company_number": "698113",
+  "company_name": "Brightpath Payroll Limited",
+  "status": "active",
+  "incorporated_on": "2021-07-07",
+  "registered_office_address": "Mespil Road 12, Dublin 4, D04 R2C6",
+  "officers": [
+   {
+    "name": "Niamh Walsh",
+    "role": "director",
+    "date_of_birth": "1983-03",
+    "nationality": "IE"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Niamh Walsh",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "69201"
+  ]
+ },
+ "GB:16330571": {
+  "country": "GB",
+  "company_number": "16330571",
+  "company_name": "KESTREL AUDIO LTD",
+  "status": "active",
+  "incorporated_on": "2025-03-10",
+  "registered_office_address": "9 Broad Street, Oxford OX1 3AJ",
+  "officers": [
+   {
+    "name": "Dev Patel",
+    "role": "director",
+    "date_of_birth": "1992-08",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Dev Patel",
+    "kind": "individual",
+    "ownership": "50-75%"
+   },
+   {
+    "name": "Olivia Hart",
+    "kind": "individual",
+    "ownership": "25-50%"
+   }
+  ],
+  "sic_codes": [
+   "26400"
+  ]
+ },
+ "BE:0789.441.205": {
+  "country": "BE",
+  "company_number": "0789.441.205",
+  "company_name": "Pixelhaven BV",
+  "status": "active",
+  "incorporated_on": "2022-11-21",
+  "registered_office_address": "Meir 50, 2000 Antwerpen",
+  "officers": [
+   {
+    "name": "Lotte Peeters",
+    "role": "zaakvoerder",
+    "date_of_birth": "1990-01",
+    "nationality": "BE"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Lotte Peeters",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "58210"
+  ]
+ },
+ "GB:13998744": {
+  "country": "GB",
+  "company_number": "13998744",
+  "company_name": "COINWISE REMIT LTD",
+  "status": "active",
+  "incorporated_on": "2022-01-31",
+  "registered_office_address": "60 Whitechapel Road, London E1 1DU",
+  "officers": [
+   {
+    "name": "Imran Qureshi",
+    "role": "director",
+    "date_of_birth": "1981-09",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Imran Qureshi",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "66190"
+  ]
+ },
+ "NL:88120456": {
+  "country": "NL",
+  "company_number": "88120456",
+  "company_name": "Kanaal Consultancy B.V.",
+  "status": "active",
+  "incorporated_on": "2021-04-01",
+  "registered_office_address": "Herengracht 300, 1016 CE Amsterdam",
+  "officers": [
+   {
+    "name": "Pieter Jansen",
+    "role": "director",
+    "date_of_birth": "1975-07",
+    "nationality": "NL"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Kanaal Beheer B.V.",
+    "kind": "corporate",
+    "ownership": "75-100%",
+    "country_of_residence": "NL"
+   }
+  ],
+  "sic_codes": [
+   "70221"
+  ]
+ },
+ "GB:09127734": {
+  "country": "GB",
+  "company_number": "09127734",
+  "company_name": "REDSTONE PARTS LIMITED",
+  "status": "liquidation",
+  "incorporated_on": "2014-07-22",
+  "registered_office_address": "Unit 3, Tame Road, Birmingham B6 7HS",
+  "officers": [
+   {
+    "name": "Gary Mills",
+    "role": "director",
+    "date_of_birth": "1966-05",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Gary Mills",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "45320"
+  ]
+ },
+ "AT:FN 512833a": {
+  "country": "AT",
+  "company_number": "FN 512833a",
+  "company_name": "Donau Handel GmbH",
+  "status": "active",
+  "incorporated_on": "2019-03-18",
+  "registered_office_address": "Praterstraße 31, 1020 Wien",
+  "officers": [
+   {
+    "name": "Lukas Gruber",
+    "role": "Geschäftsführer",
+    "date_of_birth": "1985-10",
+    "nationality": "AT"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Lukas Gruber",
+    "kind": "individual",
+    "ownership": "50-75%"
+   },
+   {
+    "name": "Oleksandr Petrov",
+    "kind": "individual",
+    "ownership": "25-50%"
+   }
+  ],
+  "sic_codes": [
+   "46690"
+  ]
+ },
+ "GB:16001877": {
+  "country": "GB",
+  "company_number": "16001877",
+  "company_name": "NORTHGATE SUPPLIES LTD",
+  "status": "active",
+  "incorporated_on": "2024-11-05",
+  "registered_office_address": "Suite 2, 12 Hill Street, Birmingham B5 4AN",
+  "officers": [
+   {
+    "name": "Ahmed Saleh",
+    "role": "director",
+    "date_of_birth": "1977-02",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Ahmed Saleh",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "46900"
+  ]
+ },
+ "GB:14533092": {
+  "country": "GB",
+  "company_number": "14533092",
+  "company_name": "VERDANT LEAF CBD LTD",
+  "status": "active",
+  "incorporated_on": "2022-09-12",
+  "registered_office_address": "5 Stokes Croft, Bristol BS1 3PL",
+  "officers": [
+   {
+    "name": "Mia Collins",
+    "role": "director",
+    "date_of_birth": "1993-05",
+    "nationality": "GB"
+   }
+  ],
+  "persons_with_significant_control": [
+   {
+    "name": "Mia Collins",
+    "kind": "individual",
+    "ownership": "75-100%"
+   }
+  ],
+  "sic_codes": [
+   "47750"
+  ]
  }
 }
