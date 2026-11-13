@@ -84,3 +84,10 @@ def test_unsafe_approval_fails_the_gate():
 def test_fixture_labels_use_known_flags():
     for c in CASES.values():
         assert set(c["label"]["flags"]) <= set(POLICY["flags"]), c["id"]
+
+
+def test_new_company_with_implausible_volume_escalates():
+    v, overrides = enforce({"decision": "request_info", "flags": ["recently_incorporated", "volume_inconsistent"]}, "shadow")
+    assert v["decision"] == "escalate" and overrides
+    v, overrides = enforce({"decision": "request_info", "flags": ["volume_inconsistent"]}, "shadow")
+    assert v["decision"] == "request_info" and not overrides

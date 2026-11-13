@@ -20,6 +20,14 @@ def _load(name):
 REGISTRY = _load("registry")
 SANCTIONS = _load("sanctions")
 
+
+def load_case(case_id):
+    for name in ("cases", "heldout"):
+        for c in _load(name):
+            if c["id"] == case_id:
+                return c
+    raise KeyError(case_id)
+
 _SUFFIXES = {"ltd": "limited", "bv": "b.v.", "plc": "public limited company", "&": "and"}
 
 

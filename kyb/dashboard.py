@@ -25,7 +25,8 @@ def evals():
     out = {}
     for p in sorted(glob.glob(os.path.join(RESULTS, "eval-*.json"))):
         d = json.load(open(p, encoding="utf-8"))
-        out[d["summary"]["model"]] = d
+        s = d["summary"]
+        out[f'{s.get("set", "dev")}-{s.get("label", s["model"].split("/")[-1])}'] = d
     return out
 
 
@@ -111,8 +112,55 @@ def case_view(cid, model):
             + f'</div><div class="card"><b>Your decision</b> '
               f'{"(recorded: " + pill(ops[cid]) + ")" if cid in ops else ""}'
               f'<form method="post" action="/decide?case={E(cid)}&model={E(model)}">{btns}</form></div>'
-              f'<h3>Trace</h3><table><tr><th>#</th><th>Tool</th><th>Args</th><th>Result (truncated)</th></tr>{trace}</table>')
+              + waterfall(rec.get("trace_id"))
+              + f'<h3>Tool calls</h3><table><tr><th>#</th><th>Tool</th><th>Args</th><th>Result (truncated)</th></tr>{trace}</table>')
     return page(cid, body, model)
+
+
+def waterfall(trace_id):
+    """One case's OpenTelemetry trace as a timeline: harness and tool-server spans in one tree."""
+    path = os.path.join(RESULTS, "traces.jsonl")
+    if not trace_id or not os.path.exists(path):
+        return ""
+    spans = [s for s in map(json.loads, open(path, encoding="utf-8")) if s["trace_id"] == trace_id]
+    if not spans:
+        return ""
+    t0 = min(s["start_ns"] for s in spans)
+    total = max(s["end_ns"] for s in spans) - t0 or 1
+    kids = {}
+    for s in spans:
+        kids.setdefault(s["parent_id"], []).append(s)
+    ids = {s["span_id"] for s in spans}
+    rows = []
+
+    def label(s):
+        a = s["attributes"]
+        if s["name"] == "llm.chat":
+            return f'model call · {a.get("gen_ai.usage.input_tokens")} in / {a.get("gen_ai.usage.output_tokens")} out · ${a.get("kyb.cost_usd", 0):.5f}'
+        if s["name"].startswith("mcp.server"):
+            d = a.get("kyb.authz.decision", "")
+            return f'tool server: <b class="{"ok" if d == "allow" else "bad"}">{E(d)}</b> {E(a.get("kyb.authz.reason", ""))}'
+        if s["name"] == "harness.enforce":
+            return f'model said {E(str(a.get("kyb.decision.model")))}, final {E(str(a.get("kyb.decision")))}, overrides {a.get("kyb.overrides")}'
+        if s["name"] == "kyb.review":
+            return f'{E(str(a.get("kyb.agent")))} · stage {E(str(a.get("kyb.stage")))} · ${a.get("kyb.cost_usd", 0)}'
+        return ""
+
+    def walk(s, depth):
+        left = (s["start_ns"] - t0) / total * 100
+        width = max((s["end_ns"] - s["start_ns"]) / total * 100, 0.4)
+        colour = "#7c8db5" if s["service"] == "kyb-harness" else "#d08a3c"
+        rows.append(f'<tr><td style="padding-left:{8 + depth * 18}px">{E(s["name"])}</td><td>{E(s["service"] or "")}</td>'
+                    f'<td style="width:38%"><div style="position:relative;height:12px;background:#f1f3f6">'
+                    f'<div style="position:absolute;left:{left:.2f}%;width:{width:.2f}%;height:12px;background:{colour}"></div></div></td>'
+                    f'<td>{(s["end_ns"] - s["start_ns"]) / 1e6:.0f} ms</td><td>{label(s)}</td></tr>')
+        for k in sorted(kids.get(s["span_id"], []), key=lambda x: x["start_ns"]):
+            walk(k, depth + 1)
+
+    for root in sorted((s for s in spans if s["parent_id"] not in ids), key=lambda x: x["start_ns"]):
+        walk(root, 0)
+    return (f'<h3>Trace <small><code>{E(trace_id)}</code> · blue: harness, orange: tool server (separate process)</small></h3>'
+            f'<table><tr><th>Span</th><th>Service</th><th>Timeline</th><th>Took</th><th>Detail</th></tr>{"".join(rows)}</table>')
 
 
 def audit_view():

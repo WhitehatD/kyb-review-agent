@@ -1,7 +1,8 @@
 """Offline eval: run the agent over the labelled cases and check the stage gate.
 
-    python -m kyb.evaluate --model deepseek/deepseek-v4-flash
-    python -m kyb.evaluate --model anthropic/claude-haiku-5.5 --cases K19,K23
+    python -m kyb.evaluate --set dev     --label v2          # the 31 cases used while building
+    python -m kyb.evaluate --set heldout --label v2          # the 12 cases never used for tuning
+    python -m kyb.evaluate --set dev --cases K19,K23 --label debug
 
 A hard spend cap (--max-usd, default 1.00) stops the whole run, not just one case.
 """
@@ -67,14 +68,16 @@ def score(records, cases, key="verdict"):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", default="deepseek/deepseek-v4-flash")
+    ap.add_argument("--model", default="anthropic/claude-haiku-5.5")
+    ap.add_argument("--set", choices=["dev", "heldout"], default="dev")
+    ap.add_argument("--label", default="latest", help="name for this run, e.g. the prompt/policy version")
     ap.add_argument("--stage", default="shadow")
     ap.add_argument("--cases", default="")
     ap.add_argument("--workers", type=int, default=6)
     ap.add_argument("--max-usd", type=float, default=1.0)
     a = ap.parse_args()
 
-    cases = json.load(open(os.path.join(ROOT, "data", "cases.json"), encoding="utf-8"))
+    cases = json.load(open(os.path.join(ROOT, "data", "cases.json" if a.set == "dev" else "heldout.json"), encoding="utf-8"))
     if a.cases:
         keep = set(a.cases.split(","))
         cases = [c for c in cases if c["id"] in keep]
@@ -87,9 +90,9 @@ def main():
     alone, _ = score(records, cases, key="raw_verdict")
     summary["model_alone"] = {k: alone[k] for k in ("decision_accuracy", "unsafe_approvals", "escalation_recall")}
     summary["model_alone"]["gate_passed"] = alone["gate"]["passed"]
-    summary.update(model=a.model, stage=a.stage, at=time.strftime("%Y-%m-%d %H:%M"))
+    summary.update(model=a.model, stage=a.stage, set=a.set, label=a.label, at=time.strftime("%Y-%m-%d %H:%M"))
 
-    tag = a.model.split("/")[-1]
+    tag = f"{a.set}-{a.label}"
     out = {"summary": summary, "rows": rows, "records": records}
     json.dump(out, open(os.path.join(ROOT, "results", f"eval-{tag}.json"), "w", encoding="utf-8"),
               indent=1, ensure_ascii=False)
